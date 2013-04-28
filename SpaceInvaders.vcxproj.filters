@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Moveable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Destructible.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicLoops.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Moveable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Destructible.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLoops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Highscore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceInvaders.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alien1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien1_8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Explosion_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="button_exit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button_score.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button_start.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Background.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="HUD.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_01_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_01_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_02_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_02_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_03_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_03_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_04_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_04_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_05_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_05_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_06_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_06_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_07_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_07_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_08_blue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Defender_08_red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien2_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Mothership_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Alien3_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_2_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_05.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_06.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_07.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_3_08.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Appicon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="button_help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_1_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_1_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_1_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_1_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_04_01.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_04_02.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_04_03.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shot_04_04.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="HUD_Closed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Shield.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

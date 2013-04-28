@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="University|Win32">
+      <Configuration>University</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{769B50AE-0C0D-4D76-98FD-09B80551A679}</ProjectGuid>
+    <RootNamespace>SpaceInvaders</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='University|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='University|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='University|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Msimg32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Alien.cpp" />
+    <ClCompile Include="Defender.cpp" />
+    <ClCompile Include="Destructible.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="LogicLoops.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Moveable.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Popup.cpp" />
+    <ClCompile Include="Shield.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="Shot.cpp" />
+    <ClCompile Include="Switch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alien.h" />
+    <ClInclude Include="Destructible.h" />
+    <ClInclude Include="Defender.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Highscore.h" />
+    <ClInclude Include="LogicLoops.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Moveable.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Popup.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="Shot.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Switch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceInvaders.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alien1_1.bmp" />
+    <None Include="Alien1_2.bmp" />
+    <None Include="Alien1_3.bmp" />
+    <None Include="Alien1_4.bmp" />
+    <None Include="Alien1_5.bmp" />
+    <None Include="Alien1_6.bmp" />
+    <None Include="Alien1_7.bmp" />
+    <None Include="Alien1_8.bmp" />
+    <None Include="Alien2_01.bmp" />
+    <None Include="Alien2_02.bmp" />
+    <None Include="Alien2_03.bmp" />
+    <None Include="Alien2_04.bmp" />
+    <None Include="Alien2_05.bmp" />
+    <None Include="Alien2_06.bmp" />
+    <None Include="Alien2_07.bmp" />
+    <None Include="Alien2_08.bmp" />
+    <None Include="Alien3_01.bmp" />
+    <None Include="Alien3_02.bmp" />
+    <None Include="Alien3_03.bmp" />
+    <None Include="Alien3_04.bmp" />
+    <None Include="Alien3_05.bmp" />
+    <None Include="Alien3_06.bmp" />
+    <None Include="Alien3_07.bmp" />
+    <None Include="Alien3_08.bmp" />
+    <None Include="Appicon.ico" />
+    <None Include="Background.bmp" />
+    <None Include="button_exit.bmp" />
+    <None Include="button_help.bmp" />
+    <None Include="button_score.bmp" />
+    <None Include="button_start.bmp" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="Defender_01_blue.bmp" />
+    <None Include="Defender_01_red.bmp" />
+    <None Include="Defender_02_blue.bmp" />
+    <None Include="Defender_02_red.bmp" />
+    <None Include="Defender_03_blue.bmp" />
+    <None Include="Defender_03_red.bmp" />
+    <None Include="Defender_04_blue.bmp" />
+    <None Include="Defender_04_red.bmp" />
+    <None Include="Defender_05_blue.bmp" />
+    <None Include="Defender_05_red.bmp" />
+    <None Include="Defender_06_blue.bmp" />
+    <None Include="Defender_06_red.bmp" />
+    <None Include="Defender_07_blue.bmp" />
+    <None Include="Defender_07_red.bmp" />
+    <None Include="Defender_08_blue.bmp" />
+    <None Include="Defender_08_red.bmp" />
+    <None Include="Explosion_01.bmp" />
+    <None Include="Explosion_02.bmp" />
+    <None Include="Explosion_03.bmp" />
+    <None Include="Explosion_04.bmp" />
+    <None Include="Explosion_05.bmp" />
+    <None Include="Explosion_06.bmp" />
+    <None Include="Explosion_07.bmp" />
+    <None Include="Explosion_08.bmp" />
+    <None Include="HUD.bmp" />
+    <None Include="HUD_Closed.bmp" />
+    <None Include="Mothership_01.bmp" />
+    <None Include="Mothership_02.bmp" />
+    <None Include="Mothership_03.bmp" />
+    <None Include="Mothership_04.bmp" />
+    <None Include="Mothership_05.bmp" />
+    <None Include="Mothership_06.bmp" />
+    <None Include="Mothership_07.bmp" />
+    <None Include="Mothership_08.bmp" />
+    <None Include="Shot_04_01.bmp" />
+    <None Include="Shot_04_02.bmp" />
+    <None Include="Shot_04_03.bmp" />
+    <None Include="Shot_04_04.bmp" />
+    <None Include="Shot_1_01.bmp" />
+    <None Include="Shot_1_02.bmp" />
+    <None Include="Shot_1_03.bmp" />
+    <None Include="Shot_1_04.bmp" />
+    <None Include="Shot_2_01.bmp" />
+    <None Include="Shot_2_02.bmp" />
+    <None Include="Shot_2_03.bmp" />
+    <None Include="Shot_2_04.bmp" />
+    <None Include="Shot_2_05.bmp" />
+    <None Include="Shot_2_06.bmp" />
+    <None Include="Shot_2_07.bmp" />
+    <None Include="Shot_2_08.bmp" />
+    <None Include="Shot_3_01.bmp" />
+    <None Include="Shot_3_02.bmp" />
+    <None Include="Shot_3_03.bmp" />
+    <None Include="Shot_3_04.bmp" />
+    <None Include="Shot_3_05.bmp" />
+    <None Include="Shot_3_06.bmp" />
+    <None Include="Shot_3_07.bmp" />
+    <None Include="Shot_3_08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Logo.bmp" />
+    <Image Include="Shield.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
